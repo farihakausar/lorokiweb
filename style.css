@@ -364,13 +364,12 @@ padding:10px;
 animation:slidefromup 1s ease-in;}
 .showcase{
 animation:slidefrombottom 1s ease-in;
-
+}
+.showcase .grid{
 display:grid;
 Height:1000px;
 grid-template-columns:1fr;
-        grid-template-rows: 1fr
-}
-
+       }
     .navbar {
         background-color: rgba(0, 0, 0, 0.686);
         text-align: center;

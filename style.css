@@ -402,7 +402,6 @@ animation:slidefrombottom 1s ease-in;}
         grid-column:1/2 ;
     }
 .grid-box>*:first-child{
-height:30px;
 grid-column:1/2;
 grid-row:1/2;}
 .section2-docs,.grid-docs{

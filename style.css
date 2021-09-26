@@ -382,6 +382,7 @@ text-align: center;
     top:0;
 Height:300px;
 Background-color:var(--primary-color);
+Margin-bottom:500px;
 }
     .headsection-2 .text-xl,.extreme-content .text-xl,.head-content .text-xl{
         font-size: 16px;

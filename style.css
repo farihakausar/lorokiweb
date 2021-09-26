@@ -341,7 +341,7 @@ border-bottom: 1px solid grey;
     }
 }
 @media (max-width:500px){
-    .header,.grid,.grid-docs ,.section2-docs,.footer,.showcase,.stats,.grid-box,.extreme,.grid,.box,.features-icons,.subheader ,.grid-subheader,.server2{
+    .header,.grid,.grid-docs ,.section2-docs,.footer,.stats,.grid-box,.extreme,.grid,.box,.features-icons,.subheader ,.grid-subheader,.server2{
         display: grid;
         grid-template-columns:1fr;
         grid-template-rows: 1fr;
@@ -365,11 +365,16 @@ border-bottom: 1px solid grey;
         height: auto;
         text-align: center;
     }
+    .showcase{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .headsection-2 .text-xl{
         font-size: 16px;
     }
     .small{
-        height: 50px;
+        height: 30px;
     }
     .features-icons{
         color: black;

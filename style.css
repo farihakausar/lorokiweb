@@ -375,7 +375,8 @@ grid-template-columns:1fr;
 text-align: center;
     position: relative;
 Height:300px;
-background-color:white;
+background-color: white;
+    color: rgb(58, 50, 50);
 Margin-bottom:500px;
 }
 .navbar {

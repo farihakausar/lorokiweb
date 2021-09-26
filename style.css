@@ -366,7 +366,7 @@ animation:slidefromup 1s ease-in;}
 animation:slidefrombottom 1s ease-in;
 }
 .showcase{
-Height:1000px;}
+Height:850px;}
 .showcase .grid{
 display:grid;
 grid-template-columns:1fr;
@@ -413,7 +413,10 @@ grid-row:1/2;}
 .section2-docs,.grid-docs{
 padding:0px;
 }
-.lang-content{
+.stats{
+Padding:10px;}
+
+.stats .lang-content{
 text-align:center;
-padding:10px;}
+padding:5px;}
 }

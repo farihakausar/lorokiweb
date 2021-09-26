@@ -377,7 +377,7 @@ animation:slidefrombottom 1s ease-in;}
         flex-direction: column;
     }
     
-    .headsection-2 .text-xl,.extreme-content .text-xl{
+    .headsection-2 .text-xl,.extreme-content .text-xl,.head-content .text-xl{
         font-size: 16px;
     }
     .small{

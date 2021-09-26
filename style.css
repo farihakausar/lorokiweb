@@ -142,6 +142,7 @@ transform: scale(0.98);
 .grid-box>*:first-child{
     grid-column: 1/3;
     grid-row: 1/3;
+height:200px;
 }
 .languages{
     color: black;
@@ -360,6 +361,10 @@ padding:10px;
     .logo{
         text-align: center;
     }
+.header{
+animation:slidefromup 1s ease-in;}
+.showcase{
+animation:slidefrombottom 1s ease-in;}
     .navbar {
         background-color: rgba(0, 0, 0, 0.686);
         text-align: center;
@@ -398,6 +403,7 @@ padding:10px;
         grid-column:1/2 ;
     }
 .grid-box>*:first-child{
+height:30px;
 grid-column:1/2;
 grid-row:1/2;}
 .section2-docs,.grid-docs{

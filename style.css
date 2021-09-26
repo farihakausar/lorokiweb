@@ -369,7 +369,15 @@ animation:slidefrombottom 1s ease-in;}
         text-align: center;
     }
     
-    
+    .showcase{
+display:grid;
+Height:1000px;
+grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+}
+.showcase-form{
+text-align: center;
+}
     .headsection-2 .text-xl,.extreme-content .text-xl,.head-content .text-xl{
         font-size: 16px;
     }
@@ -400,7 +408,7 @@ grid-row:1/2;}
 .section2-docs,.grid-docs{
 padding:0px;
 }
-.stats .lang-content{
+.lang-content{
 text-align:center;
-padding:25px;}
+padding:10px;}
 }

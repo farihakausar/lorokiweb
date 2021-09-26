@@ -398,5 +398,6 @@ padding:10px;
         grid-column:1/2 ;
     }
 .section2-docs,.grid-docs{
-padding:10px;}
+padding:0px;
+}
 }

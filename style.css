@@ -368,15 +368,7 @@ animation:slidefrombottom 1s ease-in;}
         background-color: rgba(0, 0, 0, 0.686);
         text-align: center;
     }
-    .showcase{
-        height: auto;
-        text-align: center;
-    }
-    .showcase{
-        display: flex;
-        flex-flow:column wrap;
-height:1200px;
-    }
+    
     
     .headsection-2 .text-xl,.extreme-content .text-xl,.head-content .text-xl{
         font-size: 16px;
@@ -408,6 +400,7 @@ grid-row:1/2;}
 .section2-docs,.grid-docs{
 padding:0px;
 }
-.stats,.lang-content{
-text-align:center;}
+.stats .lang-content{
+text-align:center;
+padding:25px;}
 }

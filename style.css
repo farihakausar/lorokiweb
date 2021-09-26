@@ -365,25 +365,24 @@ animation:slidefromup 1s ease-in;}
 .showcase{
 animation:slidefrombottom 1s ease-in;
 }
+.showcase{
+Height:1000px;}
 .showcase .grid{
 display:grid;
-Height:1000px;
 grid-template-columns:1fr;
        }
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.686);
-        text-align: center;
-    }
-   
-
 .showcase-form{
 text-align: center;
-    position: absolute;
-    top:0;
+    position: relative;
 Height:300px;
 Background-color:var(--primary-color);
 Margin-bottom:500px;
 }
+.navbar {
+        background-color: rgba(0, 0, 0, 0.686);
+        text-align: center;
+    }
+   
     .headsection-2 .text-xl,.extreme-content .text-xl,.head-content .text-xl{
         font-size: 16px;
     }

@@ -353,7 +353,9 @@ border-bottom: 1px solid grey;
         grid-column: 0;
         grid-row: 0;
     }
-    
+    .server2-content .text-lg{
+font-size:16px;
+}
     .logo{
         text-align: center;
     }

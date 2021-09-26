@@ -142,7 +142,6 @@ transform: scale(0.98);
 .grid-box>*:first-child{
     grid-column: 1/3;
     grid-row: 1/3;
-height:200px;
 }
 .languages{
     color: black;

@@ -378,6 +378,8 @@ grid-template-columns:1fr;
 
 .showcase-form{
 text-align: center;
+    position: relative;
+    top:0;
 }
     .headsection-2 .text-xl,.extreme-content .text-xl,.head-content .text-xl{
         font-size: 16px;

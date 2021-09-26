@@ -366,7 +366,7 @@ animation:slidefromup 1s ease-in;}
 animation:slidefrombottom 1s ease-in;
 }
 .showcase{
-Height:850px;}
+Height:800px;}
 .showcase .grid{
 display:grid;
 grid-template-columns:1fr;
@@ -377,6 +377,18 @@ Height:300px;
 background-color: white;
     color: rgb(58, 50, 50);
 Margin-bottom:500px;
+}
+.showcase::before,.showcase::after{
+    content: " ";
+    position: absolute;
+    height: 100px;
+    bottom: -90px;
+ right: 0;
+    left: 0;
+    /* z-index:100; */
+     /* overflow:hidden; */
+    background-color: white;
+    transform: skewY(-3deg);
 }
 .navbar {
         background-color: rgba(0, 0, 0, 0.686);
